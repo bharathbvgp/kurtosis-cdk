@@ -35,7 +35,7 @@ kurtosis run --enclave cdk-v1 --args-file params.yml .
 
 The command above deploys the CDK stack with [cdk-erigon](https://github.com/0xPolygonHermez/cdk-erigon), serving as the sequencer. It also uses the [cdk-node](https://github.com/0xPolygon/cdk) for the remaining components.
 
-Note that it is also possible to deploy the CDK stack using the legacy sequencer and the legacy node, referred to as the [zkevm-node](https://github.com/0xPolygonHermez/zkevm-node). In this scenario, you may need to adjust the various commands slightly; instead of targeting the `cdk-erigon-node-001` service, you should target the `zkevm-node-rpc-001`.
+Note that it is also possible to deploy the CDK stack using the legacy sequencer and the legacy node, referred to as the [zkevm-node](https://github.com/0xPolygonHermez/zkevm-node). In this scenario, you may need to adjust the various commands slightly; instead of targeting the `cdk-erigon- node-001` service, you should target the `zkevm-node-rpc-001`.
 
 ```bash
 yq -Y --in-place '.deploy_cdk_erigon_node = false' params.yml
@@ -53,7 +53,7 @@ kurtosis run --enclave cdk-v1 --args-file params.yml .
 Let's do a simple L2 RPC test call.
 
 First, you will need to figure out which port Kurtoiss is using for the RPC. You can get a general feel for the entire network layout by running the following command:
-
+validator-key-generation-cl-validator-keystore
 ```bash
 kurtosis enclave inspect cdk-v1
 ```
