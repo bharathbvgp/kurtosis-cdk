@@ -122,11 +122,11 @@ args:
   zkevm_l2_keystore_password: pSnv6Dh5s9ahuzGzH9RoCDrKAMddaX3m
 
   ## L1 configuration.
-  l1_chain_id: 11155111
+  l1_chain_id: 84532
   l1_preallocated_mnemonic: danger space large coin gloom strong cover gather lock home initial regular           
-  l1_funding_amount: 3ether
-  l1_rpc_url: https://eth-sepolia.g.alchemy.com/v2/DxcZ_thUfxPOadfylNPiHo7igT7lw1SP
-  l1_ws_url: wss://eth-sepolia.g.alchemy.com/v2/DxcZ_thUfxPOadfylNPiHo7igT7lw1SP
+  l1_funding_amount: 1ether
+  l1_rpc_url: https://base-sepolia.g.alchemy.com/v2/DxcZ_thUfxPOadfylNPiHo7igT7lw1SP
+  l1_ws_url: wss://base-sepolia.g.alchemy.com/v2/DxcZ_thUfxPOadfylNPiHo7igT7lw1SP
   # https://github.com/ethpandaops/ethereum-package/tree/main?tab=readme-ov-file#configuration
   l1_additional_services: [
   # blockscout, # block explorer

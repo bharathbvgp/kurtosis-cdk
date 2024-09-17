@@ -9,7 +9,7 @@
     "multiplierGas": "",
     "pendingStateTimeout": 604799,
     "polTokenAddress":"",
-    "salt": "0x7049486058213742637802145069176227486944937722746623919775903872",
+    "salt": "0x5d8f35d9e6b9d3a1e6b0b3c4e7f8a6d2c1e3a7b8d9f6c0a1b2d3e4f5a6c7b8d9",
     "timelockAdminAddress": "{{.zkevm_l2_admin_address}}",
     "trustedSequencer": "{{.zkevm_l2_sequencer_address}}",
     "trustedSequencerURL": "http://{{.sequencer_name}}{{.deployment_suffix}}:{{.zkevm_rpc_http_port}}",
